@@ -1,0 +1,34 @@
+{
+  "foods": [
+    {
+      "id": 1,
+      "name": "Burger",
+      "calories": 250,
+      "image": "assets/images/burger.png"
+    },
+    {
+      "id": 2,
+      "name": "Salad",
+      "calories": 150,
+      "image": "assets/images/salad.png"
+    },
+    {
+      "id": 3,
+      "name": "Pizza",
+      "calories": 300,
+      "image": "assets/images/pizza.png"
+    },
+    {
+      "id": 4,
+      "name": "Apple",
+      "calories": 95,
+      "image": "assets/images/apple.png"
+    },
+    {
+      "id": 5,
+      "name": "Ice Cream",
+      "calories": 200,
+      "image": "assets/images/ice_cream.png"
+    }
+  ]
+}
