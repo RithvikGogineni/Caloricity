@@ -1,3 +1,4 @@
+import 'package:caloricity/pages/about_us.dart';
 import 'package:flutter/material.dart';
 import 'pages/home_page.dart';
 import 'pages/games_page.dart';
@@ -16,7 +17,7 @@ class DietaryAwarenessApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Caloricity',
       theme: ThemeData.dark().copyWith(
-        scaffoldBackgroundColor: Colors.black,
+        scaffoldBackgroundColor: const Color.fromARGB(255, 63, 63, 63),
         primaryColor: Colors.orange,
         textTheme: TextTheme(
           bodyLarge: TextStyle(color: Colors.white),
@@ -25,7 +26,7 @@ class DietaryAwarenessApp extends StatelessWidget {
         ),
         elevatedButtonTheme: ElevatedButtonThemeData(
           style: ElevatedButton.styleFrom(
-            foregroundColor: Colors.black,
+            foregroundColor: const Color.fromARGB(255, 58, 58, 58),
             backgroundColor: Colors.orange,
             textStyle: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
           ),
@@ -38,6 +39,7 @@ class DietaryAwarenessApp extends StatelessWidget {
         '/diet-planner': (context) => DietPlannerPage(),
         '/resources': (context) => ResourcesPage(),
         '/community': (context) => CommunityPage(),
+        '/about-us': (context) => AboutUsPage(), // Add t
       },
     );
   }

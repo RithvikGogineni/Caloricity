@@ -229,6 +229,12 @@ class GlassPanel extends StatelessWidget {
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
+              IconButton(
+                icon: Icon(Icons.arrow_back, color: Colors.white),
+                onPressed: () {
+                  Navigator.pop(context); // Go back to the previous screen
+                },
+              ),
               Text(
                 'Score: $score\nPersonal Best: $personalBest',
                 style: TextStyle(

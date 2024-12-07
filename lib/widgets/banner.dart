@@ -17,7 +17,7 @@ class BannerWidget extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Text(
-            'Welcome to Dietary Awareness',
+            'Welcome to Caloricity!',
             style: TextStyle(
                 fontSize: 32, fontWeight: FontWeight.bold, color: Colors.white),
           ),
