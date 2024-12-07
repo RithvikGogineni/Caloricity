@@ -2,6 +2,8 @@
 
 Caloricity is a vibrant dietary awareness platform designed to educate and inspire healthier eating habits, embracing the rich flavors and culture of the Caribbean. Through interactive tools, games, and resources, we aim to make mindful eating fun, engaging, and accessible to all.
 
+https://caloricity.netlify.app/
+
 ---
 
 ## **Features in Progress**
@@ -91,7 +93,7 @@ Here are the upcoming features and functionalities planned for Caloricity:
 ## **Project Setup**
 
 ### **See the Project:**
-Please go to thise website to see the project: https://github.com/RithvikGogineni/Caloricity
+Please go to thise website to see the project: https://caloricity.netlify.app/
 
 ### Prerequisites:
 1. Install Flutter and ensure it's configured.
