@@ -90,6 +90,9 @@ Here are the upcoming features and functionalities planned for Caloricity:
 
 ## **Project Setup**
 
+### **See the Project:**
+Please go to thise website to see the project: https://github.com/RithvikGogineni/Caloricity
+
 ### Prerequisites:
 1. Install Flutter and ensure it's configured.
 2. Clone the repository:
